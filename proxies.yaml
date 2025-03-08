@@ -52,7 +52,7 @@ proxies:
 		headers:
 			Host: sg3.socifiles.com
 	udp: true
-  - name: akun4
+  	- name: akun4
 	type: xl.co.id 
 	server: www.airtel.cg 
 	port: 443
@@ -70,7 +70,7 @@ proxies:
 		headers:
 			Host: sg3.socifiles.com
 	udp: true
-  - name: akun5
+  	- name: akun5
 	type: xl.co.id 
 	server: www.airtel.cg 
 	port: 443
