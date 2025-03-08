@@ -1,4 +1,5 @@
 proxies:
+
 - name: Trojan1
   type: xl.co.id
   server: www.airtel.cg
