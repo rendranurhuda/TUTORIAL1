@@ -4,12 +4,12 @@ proxies:
 	port: 443
 	type: xl.co.id 
 	uuid: c5e69ad0-fbd6-11ef-ae5c-1239d0255272
-	alterId :
-	chiper :
+	alterId : 0
+	chiper : auto
 	tls : false
 	sni: sg3.socifiles.com
 	skip-cert-verify: true
-	servename :
+	servename : sg3.socifiles.com
 	network: ws
 	ws-opts:
 		path: /howdy/
@@ -17,13 +17,12 @@ proxies:
 			Host: sg3.socifiles.com
 	udp: true
 	- name: akun2 
-	type: xl.co.id 
 	server: www.airtel.cg  
 	port: 443
-	type: 
+	type: xl.co.id 
 	uuid: 64b8d7f0-fbf7-11ef-81d7-1239d0255272
 	alterId :
-	chiper :
+	chiper : auto
 	tls : false
 	sni: sg3.socifiles.com  
 	skip-cert-verify: true
@@ -35,17 +34,16 @@ proxies:
 			Host: sg3.socifiles.com
 	udp: true
 	- name: akun3
-	type: xl.co.id 
 	server: www.airtel.cg 
 	port: 443
-	type: 
+	type: www.airtel.cg
 	uuid:: b2fc2940-fbf7-11ef-9d2e-1239d0255272
-	alterId :
-	chiper :
+	alterId : 0
+	chiper : auto
 	tls : false
 	sni: sg3.socifiles.com
 	skip-cert-verify: true
-	servename :
+	servename : sg3.socifiles.com
 	network: ws
 	ws-opts:
 		path: /howdy/
