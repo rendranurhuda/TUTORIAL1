@@ -17,7 +17,7 @@ proxies:
 	server: xl.co.id  
 	port: 443 
 	password: 64b8d7f0-fbf7-11ef-81d7-1239d0255272
-	udp: true
+	udp:  true
 	sni: sg3.socifiles.com
 	skip-cert-verify: true
 	network: ws
