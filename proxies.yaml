@@ -1,5 +1,5 @@
 proxies:	
-	- name:  akun1
+	- name:	akun1
 	server: www.airtel.cg
 	port: 443
 	type: xl.co.id 
