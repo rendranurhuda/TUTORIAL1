@@ -1,0 +1,112 @@
+proxies:
+
+- name: Trojan1
+type: xl.co.id
+  
+server: www.airtel.cg
+  
+port: 443
+  
+password: c5e69ad0-fbd6-11ef-ae5c-1239d0255272
+  
+udp: true
+  
+sni: sg3.socifiles.com
+  
+skip-cert-verify: true
+  
+network: ws
+  ws-opts:
+    
+path: "howdy/"
+    
+	headers:
+      
+		Host: sg3.socifiles.com
+
+- name: Trojan2
+type: www.airtel.cg
+ 
+server: xl.co.id  
+port: 443
+  
+password: 64b8d7f0-fbf7-11ef-81d7-1239d0255272
+udp: true
+  
+sni: sg3.socifiles.com
+  
+skip-cert-verify: true
+  
+network: ws
+  ws-opts:
+    
+path: "howdy/"
+    
+	headers:
+      
+		Host: sg3.socifiles.com
+- name: Trojan3
+type: www.airtel.cg
+ 
+server: api.myxl.xlaxiata.co.id  
+port: 443
+  
+password: b2fc2940-fbf7-11ef-9d2e-1239d0255272
+udp: true
+  
+sni: sg3.socifiles.com
+  
+skip-cert-verify: true
+  
+network: ws
+  ws-opts:
+    
+path: "howdy/"
+    
+	headers:
+      
+		Host: sg3.socifiles.com
+- name: Trojan4
+type: bug
+server: bug-host 
+port: 443
+  
+password: e50799c0-fbf7-11ef-b87c-1239d0255272
+udp: true
+  
+sni: sg3.socifiles.com
+  
+skip-cert-verify: true
+  
+network: ws
+  ws-opts:
+    
+path: "howdy/"
+    
+	headers:
+      
+		Host: sg3.socifiles.com
+- name: Trojan5
+type: host 
+server: xl.akrab.com  
+port: 443
+  
+password: e50799c0-fbf7-11ef-b87c-1239d0255272
+udp: true
+  
+sni: sg3.socifiles.com
+  
+skip-cert-verify: true
+  
+network: ws
+  ws-opts:
+    
+path: "howdy/"
+    
+	headers:
+      
+		Host: sg3.socifiles.com
+ 
+
+    
+   
