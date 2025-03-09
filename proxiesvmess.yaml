@@ -1,0 +1,34 @@
+proxies:
+- name: Vmess1
+  type: vmess
+  server: usv-1.openv2ray.com
+  port: 443
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bug.host
+  network: ws
+  ws-opts:
+    path: /opentunnel?user=opentunnel.net-mantap
+    headers: 
+      Host: bug.host
+#=================================================
+- name: Vmess2
+  type: vmess
+  server: domain/ip
+  port: 443
+  uuid: xxxx2035-7dd8-48e1-876e-1cdb42657356
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: domain
+  network: ws
+  ws-opts:
+    path: /path
+    headers:
+      Host: domain
